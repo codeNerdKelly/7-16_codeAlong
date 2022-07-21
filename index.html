@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>My App</h1>
+    <button>Click Me</button>
 </body>
+<script>
+    const button = document.querySelector('button');
+    console.log(button.tagName);
+    button.addEventListener('click', () => {
+        console.log('hello world');
+    });
+    </script>
 </html>
